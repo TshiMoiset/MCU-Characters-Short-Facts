@@ -10,10 +10,10 @@ fetch("./character.json", {})
       //newDiv.classList.add("movie-item");
 
       
-      let characterPhoto = new Image (20,30);
+      let characterPhoto = new Image (150,250);
       characterPhoto.src = character.photo;
       newDiv.append(characterPhoto);
-
+   
       let movieTitle = document.createElement("h3");
 
       movieTitle.innerText = character.name;
