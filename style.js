@@ -9,6 +9,11 @@ fetch("./character.json", {})
       let newDiv = document.createElement("div");
       //newDiv.classList.add("movie-item");
 
+      
+      let characterPhoto = new Image (20,30);
+      characterPhoto.src = character.photo;
+      newDiv.append(characterPhoto);
+
       let movieTitle = document.createElement("h3");
 
       movieTitle.innerText = character.name;

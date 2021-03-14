@@ -18,7 +18,8 @@
         "gender": "Male", 
         "dateOfBirth": "964 A.D. - 965 A.D.",
         "dateOfDeath": "Still Alive",
-        "movies": ["Thor", " Captain America: The First Avengers", " The Avengers", " Thor: The Dark World", " Avengers: Age of Ultron", " Captain America: Civil War", " Doctor Strange", " Thor: Ragnarok", " Avengers: Infinitywar", " Avengers: Endgame"]
+        "movies": ["Thor", " Captain America: The First Avengers", " The Avengers", " Thor: The Dark World", " Avengers: Age of Ultron", " Captain America: Civil War", " Doctor Strange", " Thor: Ragnarok", " Avengers: Infinitywar", " Avengers: Endgame"],
+        "photo": "https://i.pinimg.com/originals/26/80/70/2680702031e0fd44872b67a56616483e.jpg"
     }, 
     {
         "name": "Steven Grant Rogers, (Steve Rogers)",
@@ -28,6 +29,7 @@
         "gender": "Male", 
         "dateOfBirth": "July 4, 1918",
         "dateOfDeath": "Still Alive",
-        "movies": ["Captain America: The First Avenger", " The Avengers", " Captain America: The Winter Soldier", " Avengers: Age of Ultron", " Ant-Man", " Captain America: Civil War", " Avengers: Infinity War", " Avengers: Endgame", " Spider-Man: Far From Home"]
+        "movies": ["Captain America: The First Avenger", " The Avengers", " Captain America: The Winter Soldier", " Avengers: Age of Ultron", " Ant-Man", " Captain America: Civil War", " Avengers: Infinity War", " Avengers: Endgame", " Spider-Man: Far From Home"],
+        "photo": "https://s1.1zoom.me/b5151/869/Heroes_comics_Captain_America_hero_Captain_America_531877_1080x1920.jpg"
     }
 ]
