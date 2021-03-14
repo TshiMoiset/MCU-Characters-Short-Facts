@@ -42,6 +42,8 @@ fetch("./character.json", {})
       characterMovies.innerText = "Movies: " + character.movies;
       newDiv.append(characterMovies);
 
+     
+
       let rating = document.createElement("p");
       let numRating = parseInt(character.rating);
       for (let i = 0; i < numRating; i++) {
@@ -54,6 +56,7 @@ fetch("./character.json", {})
   .catch((error) => {
     console.error(error);
   });
+
 
 
 

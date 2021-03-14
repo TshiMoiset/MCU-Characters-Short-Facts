@@ -11,3 +11,8 @@ header {
     text-align: center;
 }
 
+#json {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 20px;
+}
