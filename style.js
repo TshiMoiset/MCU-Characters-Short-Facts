@@ -14,7 +14,7 @@ fetch("./character.json", {})
       characterPhoto.src = character.photo;
       newDiv.append(characterPhoto);
    
-      let movieTitle = document.createElement("h3");
+      let movieTitle = document.createElement("h2");
 
       movieTitle.innerText = character.name;
       newDiv.append(movieTitle);
