@@ -13,6 +13,8 @@ fetch("./character.json", {})
       let characterPhoto = new Image (150,250);
       characterPhoto.src = character.photo;
       newDiv.append(characterPhoto);
+
+ 
    
       let movieTitle = document.createElement("h2");
 
