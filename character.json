@@ -31,5 +31,16 @@
         "dateOfDeath": "Still Alive",
         "movies": ["Captain America: The First Avenger", " The Avengers", " Captain America: The Winter Soldier", " Avengers: Age of Ultron", " Ant-Man", " Captain America: Civil War", " Avengers: Infinity War", " Avengers: Endgame", " Spider-Man: Far From Home"],
         "photo": "https://s1.1zoom.me/b5151/869/Heroes_comics_Captain_America_hero_Captain_America_531877_1080x1920.jpg"
+    },
+    {
+        "name": "Natalia Alianovna Romanoff, (Natasha Romanoff)",
+        "alias": "Black Widow",
+        "species": "Human",
+        "citizenship": "American", 
+        "gender": "Male", 
+        "dateOfBirth": "1984",
+        "dateOfDeath": "Timetraveled to 2014 & Died",
+        "movies": ["Iron Man", " The Avengers", " Captain America: The Winter Soldier", " Avengers: Age of Ultron", " Captain America: Civil War", " Avengers: Infinity War", " Captain Marvel", " Avengers: Endgame"],
+        "photo": "https://wallpaperaccess.com/full/2611984.jpgs"
     }
 ]
