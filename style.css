@@ -21,3 +21,11 @@ header {
 #characterPhoto {
     background-color: blue;
 }
+
+@media screen and (max-width: 900px) {
+    #json { 
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+}
