@@ -53,5 +53,16 @@
         "dateOfDeath": "Still Alive",
         "movies": ["The Incredible Hulk", " The Avengers", " Iron Man 3", " Avengers: Age of Ultron", " Thor: Ragnarok", " Avengers: Infinity War", " Captain Marvel", " Avengers: Endgame"],
         "photo": "https://wallpaperaccess.com/full/38390.jpg"
+    },
+    {
+        "name": "Clinton Francis Barton, (Clinton Barton)",
+        "alias": "Hawkeye",
+        "species": "Human",
+        "citizenship": "American", 
+        "gender": "Male", 
+        "dateOfBirth": "Unknown",
+        "dateOfDeath": "Still Alive",
+        "movies": ["Thor", " The Avengers", " Avengers: Age of Ultron", " Captain America: Civil War", " Avengers: Endgame"],
+        "photo": "https://i.pinimg.com/originals/95/10/a2/9510a20edcab6f9c062d2ac02e167b54.jpg"
     }
 ]

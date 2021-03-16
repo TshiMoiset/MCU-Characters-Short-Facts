@@ -1,0 +1,12 @@
+.menuBar a {
+    text-align: center;
+}
+
+
+#json {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto ;
+    grid-gap: 30px;
+    margin: 20px;    
+}
