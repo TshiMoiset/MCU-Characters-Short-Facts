@@ -6,8 +6,16 @@
 header {
     padding: 20px;
     text-align: center;
-    background-color: red;
+    /*background-color: red;    Alternativ färg*/
+    background-color: #0b0930;
     color: white;
+}
+
+ul, a {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    text-decoration: none;
 }
 
 nav {
@@ -16,8 +24,8 @@ nav {
 
 nav li{
     display: inline-block; /* Placerar ul bredvid varandra */
- 
 }
+
 
 @media screen and (max-width: 900px) {
     #json { 
@@ -26,3 +34,11 @@ nav li{
         grid-template-rows: auto;
     }
 }
+
+/*  0b0930
+1a1a64
+2c2a89
+453aa4
+5c49c6
+7b6fde 
+*/
