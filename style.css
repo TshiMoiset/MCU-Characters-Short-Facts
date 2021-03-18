@@ -28,10 +28,18 @@ footer a {
   color: white;
 }
 
+footer a:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease 0.1s;
+  font-weight: 600;
+  color: red;
+}
+
 footer ul {
   list-style: none;
 }
 
 footer h2 {
+  font-size: 20px;
   color: white;
 }
