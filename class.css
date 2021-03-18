@@ -1,11 +1,20 @@
-.menuBar a {
+.logo img {
+  width: 50px;
 }
 
+.headerContent a {
+  float: left;
+}
+
+.headerTitle {
+  text-align: center;
+  margin-right: 3em;
+}
 
 #json {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto ;
-    grid-gap: 30px;
-    margin: 20px;    
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+  margin: 20px;
 }
