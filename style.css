@@ -24,6 +24,17 @@ a {
   list-style: none;
 }
 
+footer {
+  bottom: 0;
+  height: 100%;
+  background-color: #0b0930;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
 /*  0b0930
 1a1a64
 2c2a89

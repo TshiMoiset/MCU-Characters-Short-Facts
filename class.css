@@ -2,6 +2,11 @@
   width: 50px;
 }
 
+.logo a:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease 0s;
+}
+
 .headerContent a {
   float: left;
 }
