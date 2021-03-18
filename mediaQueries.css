@@ -4,6 +4,20 @@
     grid-template-columns: auto;
     grid-template-rows: auto;
   }
+
+  footer {
+    position: relative;
+    bottom: 0;
+  }
+
+  .footerContent {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .footerContent .box {
+    margin: 5px 0;
+  }
 }
 
 @media screen and (max-width: 450px) {

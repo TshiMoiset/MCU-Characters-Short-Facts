@@ -14,6 +14,28 @@ header {
   align-items: center;
 }
 
+footer {
+  position: relative;
+  width: 100%;
+  background: #0b0930;
+}
+
+footer a {
+  display: block;
+  padding: 10px;
+  margin: 2px;
+  text-decoration: none;
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer h2 {
+  color: white;
+}
+
 /*  0b0930
 1a1a64
 2c2a89
