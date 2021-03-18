@@ -1,38 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 header {
-    padding: 20px;
-    text-align: center;
-    /*background-color: red;    Alternativ färg*/
-    background-color: #0b0930;
-    color: white;
+  overflow: hidden;
+  background-color: #0b0930;
+  color: white;
+  padding: 20px 10px;
+  align-items: center;
 }
 
-ul, a {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    text-decoration: none;
+ul,
+a {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  text-decoration: none;
+  color: #453aa4;
+  list-style: none;
 }
-
-nav {
-    list-style: none;
-}
-
-nav li{
-    display: inline-block; /* Placerar ul bredvid varandra */
-}
-
 
 @media screen and (max-width: 900px) {
-    #json { 
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
-    }
+  #json {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
 }
 
 /*  0b0930
