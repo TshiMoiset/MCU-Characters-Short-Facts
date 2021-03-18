@@ -16,6 +16,18 @@
   margin-right: 3em;
 }
 
+.menuBar ul {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  color: #453aa4;
+  list-style: none;
+}
+
+.menuBar a {
+  text-decoration: none;
+}
+
 #json {
   display: grid;
   grid-template-columns: auto auto;

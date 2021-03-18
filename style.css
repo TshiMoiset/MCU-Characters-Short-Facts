@@ -14,27 +14,6 @@ header {
   align-items: center;
 }
 
-ul,
-a {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-  text-decoration: none;
-  color: #453aa4;
-  list-style: none;
-}
-
-footer {
-  background-color: #0b0930;
-  color: white;
-}
-
-footer ul {
-  display: block;
-  text-align: left;
-  color: white;
-}
-
 /*  0b0930
 1a1a64
 2c2a89
