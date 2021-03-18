@@ -24,14 +24,6 @@ a {
   list-style: none;
 }
 
-@media screen and (max-width: 900px) {
-  #json {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-  }
-}
-
 /*  0b0930
 1a1a64
 2c2a89

@@ -1,0 +1,37 @@
+@media screen and (max-width: 900px) {
+  #json {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .headerContent h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .headerContent h1 {
+    font-size: 1.5em;
+  }
+
+  .logo {
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .headerContent h1 {
+    font-size: 1em;
+  }
+
+  .logo {
+    margin-top: -3px;
+  }
+
+  .menuBar {
+    font-size: 90%;
+  }
+}
