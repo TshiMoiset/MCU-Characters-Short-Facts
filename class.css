@@ -82,6 +82,7 @@
 
 /* Main informstion i Index.html  */
 
-.mcuMain h3 {
+.mcuMain h1 {
   text-align: center;
+  margin-bottom: 10px;
 }
