@@ -4,6 +4,7 @@
   font-family: "Open Sans", sans-serif;
 }
 
+/* Logan bredvid headern  */
 .logo img {
   width: 50px;
 }
@@ -13,15 +14,18 @@
   transition: all 0.3s ease 0.1s;
 }
 
+/*  Logan & Rubriken i headern  */
 .headerContent a {
   float: left;
 }
 
+/*  Rubriken i headern  */
 .headerTitle {
   text-align: center;
   margin-right: 3em;
 }
 
+/*  Navigationen  */
 .menuBar {
   border-top: solid 1px white;
   background-color: #0b0930;
@@ -45,6 +49,8 @@
   transform: scale(1.1);
   transition: all 0.3s ease 0.1s;
 }
+
+/*  All innehåll i footern  */
 
 .footerContent {
   display: flex;
