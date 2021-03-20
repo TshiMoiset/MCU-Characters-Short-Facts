@@ -22,25 +22,23 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 426px) {
+  /*  Texten i main section */
+  .mainSectionText h1 {
+    font-size: 30px;
+  }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 376px) {
+  /*  Texten i main section */
+  .mainSectionText h1 {
+    font-size: 35px;
+  }
 }
 
-@media screen and (max-width: 280px) {
-  /*  Innehållet i headerns */
-  .headerContent h1 {
-    font-size: 1em;
-  }
-
-  /*  logan i headern */
-  .logo {
-    margin-top: -3px;
-  }
-
-  /*  Navigationen i menyn  */
-  .menuBar {
-    font-size: 90%;
+@media screen and (max-width: 31px) {
+  /*  Texten i main section */
+  .mainSectionText h1 {
+    font-size: 33px;
   }
 }
