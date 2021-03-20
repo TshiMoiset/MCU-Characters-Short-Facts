@@ -110,9 +110,8 @@
 .mainSection {
   min-height: 100vh;
   width: 100%;
-
-  background-image: url(/images/Mcu-timeline.jpg),
-    linear-gradient(rgba(4, 9, 30, 0.7));
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(images/Mcu-timeline.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
