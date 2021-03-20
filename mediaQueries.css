@@ -46,7 +46,7 @@
   }
 }
 
-@media screen and (max-width: 31px) {
+@media screen and (max-width: 321px) {
   /*  Texten i main section */
   .mainSectionText h1 {
     font-size: 33px;
