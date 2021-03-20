@@ -10,6 +10,8 @@
     bottom: 0;
   }
 
+  /*  Innehållet i footern  */
+
   .footerContent {
     flex-wrap: wrap;
     flex-direction: column;
@@ -21,30 +23,36 @@
 }
 
 @media screen and (max-width: 450px) {
+  /*  Innehållet i headerns */
   .headerContent h1 {
     font-size: 1.5em;
   }
 }
 
 @media screen and (max-width: 360px) {
+  /*  Innehållet i headerns */
   .headerContent h1 {
     font-size: 1.5em;
   }
 
+  /*  logan i headern */
   .logo {
     margin-top: 0.5rem;
   }
 }
 
 @media screen and (max-width: 280px) {
+  /*  Innehållet i headerns */
   .headerContent h1 {
     font-size: 1em;
   }
 
+  /*  logan i headern */
   .logo {
     margin-top: -3px;
   }
 
+  /*  Navigationen i menyn  */
   .menuBar {
     font-size: 90%;
   }
