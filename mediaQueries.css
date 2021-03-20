@@ -7,14 +7,14 @@
 
   footer {
     position: relative;
-    bottom: 0;
+    bottom: 0; /*  Footern placerans längst ner i sidan  */
   }
 
-  /*  Innehållet i footern  */
+  /*  All innehåll i footern  */
 
   .footerContent {
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: column; /* Footern flexar i en kolumn 1 2 3 */
   }
 
   .footerContent .box {
