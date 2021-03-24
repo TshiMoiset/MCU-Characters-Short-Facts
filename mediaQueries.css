@@ -34,7 +34,7 @@
   }
 
   .mainContent1InnerImg img {
-    width: 600px;
+    width: 650px;
   }
 }
 
@@ -54,7 +54,7 @@
   .mainContent1Inner {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 15px;
   }
 
   .mainContent1InnerText {
@@ -62,7 +62,7 @@
   }
 
   .mainContent1InnerImg img {
-    width: 400px;
+    width: 395px;
   }
 }
 
@@ -82,7 +82,7 @@
   .mainContent1Inner {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 15px;
   }
 
   .mainContent1InnerText {
@@ -90,7 +90,7 @@
   }
 
   .mainContent1InnerImg img {
-    width: 350px;
+    width: 345px;
   }
 }
 
@@ -110,10 +110,10 @@
   .mainContent1Inner {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 15px;
   }
 
   .mainContent1InnerImg img {
-    width: 300px;
+    width: 285px;
   }
 }
