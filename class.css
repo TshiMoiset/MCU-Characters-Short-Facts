@@ -171,3 +171,17 @@
   margin: 10px 0 40px;
   font-size: 20px;
 }
+
+.mainContent1Inner {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.mainContent1InnerText {
+  margin: 25px;
+}
+
+.mainContent1InnerImg img {
+  width: 500px;
+}
