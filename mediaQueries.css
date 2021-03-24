@@ -20,17 +20,49 @@
   .footerContent .box {
     margin: 5px 0;
   }
+
+  /* Index.html: innehållet i section 2 */
+
+  .mainContent1Inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+  }
+
+  .mainContent1InnerText {
+    margin: 5px;
+  }
+
+  .mainContent1InnerImg img {
+    width: 600px;
+  }
 }
 
 @media screen and (max-width: 426px) {
   /*  Texten i main section */
   .mainSectionText h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   /*  WORK IN PROGRESS  */
   .WorkInProgressText h1 {
     font-size: 30px;
+  }
+
+  /* Index.html: innehållet i section 2 */
+
+  .mainContent1Inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+
+  .mainContent1InnerText {
+    margin: 5px;
+  }
+
+  .mainContent1InnerImg img {
+    width: 400px;
   }
 }
 
@@ -44,6 +76,22 @@
   .WorkInProgressText h1 {
     font-size: 35px;
   }
+
+  /* Index.html: innehållet i section 2 */
+
+  .mainContent1Inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+
+  .mainContent1InnerText {
+    margin: 5px;
+  }
+
+  .mainContent1InnerImg img {
+    width: 350px;
+  }
 }
 
 @media screen and (max-width: 321px) {
@@ -55,5 +103,17 @@
   /*  WORK IN PROGRESS  */
   .WorkInProgressText h1 {
     font-size: 33px;
+  }
+
+  /* Index.html: innehållet i section 2 */
+
+  .mainContent1Inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+
+  .mainContent1InnerImg img {
+    width: 300px;
   }
 }
