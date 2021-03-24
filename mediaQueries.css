@@ -40,7 +40,7 @@
 
 @media screen and (max-width: 426px) {
   /*  Texten i main section */
-  .mainSectionText h1 {
+  .mainHeroImgText h1 {
     font-size: 25px;
   }
 
@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 376px) {
   /*  Texten i main section */
-  .mainSectionText h1 {
+  .mainHeroImgText h1 {
     font-size: 35px;
   }
 
@@ -96,7 +96,7 @@
 
 @media screen and (max-width: 321px) {
   /*  Texten i main section */
-  .mainSectionText h1 {
+  .mainHeroImgText h1 {
     font-size: 33px;
   }
 
