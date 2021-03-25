@@ -34,7 +34,7 @@
 .menuBar {
   border-top: solid 1px white;
   background-color: #0b0930;
-  padding: 7px;
+  padding: 10px;
 }
 
 .menuBar ul {
@@ -51,7 +51,6 @@
 
 .menuBar a:hover {
   color: red;
-  transform: scale(1.1);
   transition: all 0.3s ease 0.1s;
 }
 
@@ -87,6 +86,13 @@
   width: 15%;
   background-color: #2c2a89;
   top: -10px;
+}
+
+.copyRight {
+  border-top: solid 1px white;
+  background-color: #0b0930;
+  text-align: center;
+  color: white;
 }
 
 #json {
