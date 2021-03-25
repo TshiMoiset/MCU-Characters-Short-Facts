@@ -185,9 +185,14 @@
   margin: 20px;
 }
 
+.mainContent1InnerText p {
+  font-family: "Rubik", sans-serif;
+}
+
 .mainContent1InnerText h1 {
   text-align: center;
   margin: 15px;
+  font-family: "Raleway", sans-serif;
 }
 
 .mainContent1InnerImg img {

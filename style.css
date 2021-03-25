@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"); /* Open sans  */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"); /* Railwya  */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"); /* Rubik  */
 header {
   overflow: hidden;
   background-color: #0b0930;
