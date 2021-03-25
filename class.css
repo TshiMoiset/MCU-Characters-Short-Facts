@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"); /* Open sans  */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"); /* Railwya  */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"); /* Rubik  */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap"); /*  Arimo */
+
 * {
   padding: 0;
   margin: 0;
@@ -183,10 +188,6 @@
 
 .mainContent1InnerText {
   margin: 20px;
-}
-
-.mainContent1InnerText p {
-  font-family: "Rubik", sans-serif;
 }
 
 .mainContent1InnerText h1 {
