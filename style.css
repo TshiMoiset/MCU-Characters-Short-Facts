@@ -22,7 +22,8 @@ hr {
 table {
   margin: 20px;
   border-collapse: collapse;
-  width: 45vw;
+  width: 95%;
+  height: 95%;
 }
 
 td,
