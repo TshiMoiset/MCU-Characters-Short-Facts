@@ -32,6 +32,7 @@
 
   .mainContent1InnerText {
     margin: 5px;
+    text-align: left;
   }
 
   .mainContent1InnerImg img {
