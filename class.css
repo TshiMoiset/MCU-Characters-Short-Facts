@@ -95,13 +95,6 @@
   color: white;
 }
 
-.line {
-  text-align: center;
-  margin: 20px;
-  width: 50%;
-  border: solid 1px #ccc;
-}
-
 #json {
   display: grid;
   grid-template-columns: auto auto;
