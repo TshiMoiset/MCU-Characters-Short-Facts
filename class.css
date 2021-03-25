@@ -182,7 +182,12 @@
 }
 
 .mainContent1InnerText {
-  margin: 25px;
+  margin: 20px;
+}
+
+.mainContent1InnerText h1 {
+  text-align: center;
+  margin: 15px;
 }
 
 .mainContent1InnerImg img {
