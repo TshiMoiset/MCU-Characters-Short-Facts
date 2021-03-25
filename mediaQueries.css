@@ -21,7 +21,7 @@
     margin: 5px 0;
   }
 
-  /* Index.html: innehållet i section 2 */
+  /* Index.html: innehållet i section 1 */
 
   .mainContent1Inner {
     display: flex;
@@ -51,7 +51,7 @@
     font-size: 30px;
   }
 
-  /* Index.html: innehållet i section 2 */
+  /* Index.html: innehållet i section 1 */
 
   .mainContent1Inner {
     display: flex;
@@ -79,7 +79,7 @@
     font-size: 35px;
   }
 
-  /* Index.html: innehållet i section 2 */
+  /* Index.html: innehållet i section 1 */
 
   .mainContent1Inner {
     display: flex;
@@ -107,7 +107,7 @@
     font-size: 33px;
   }
 
-  /* Index.html: innehållet i section 2 */
+  /* Index.html: innehållet i section 1 */
 
   .mainContent1Inner {
     display: flex;
@@ -117,5 +117,10 @@
 
   .mainContent1InnerImg img {
     width: 285px;
+  }
+
+  .tables {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
