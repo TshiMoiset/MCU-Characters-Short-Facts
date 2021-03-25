@@ -10,6 +10,15 @@ header {
   padding: 20px 10px;
 }
 
+hr {
+  margin: 10px;
+  height: 2px;
+  border-width: 0;
+  background-color: #ccc;
+  text-align: center;
+  width: 50%;
+}
+
 footer {
   position: relative;
   width: 100%;
