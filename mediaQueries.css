@@ -27,6 +27,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: 15px;
+    text-align: center;
   }
 
   .mainContent1InnerText {
