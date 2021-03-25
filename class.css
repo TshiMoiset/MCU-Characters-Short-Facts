@@ -211,3 +211,23 @@
 }
 
 /* Index.html: innehållet i section 1 */
+
+.mainContent2InnerText h1 {
+  margin: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+.mainContent2InnerText {
+  text-align: center;
+  margin: 20px;
+}
+
+.tables {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tables h2 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
