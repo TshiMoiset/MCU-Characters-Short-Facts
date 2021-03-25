@@ -89,9 +89,9 @@
 }
 
 .copyRight {
+  text-align: center;
   border-top: solid 1px white;
   background-color: #0b0930;
-  text-align: center;
   color: white;
 }
 
