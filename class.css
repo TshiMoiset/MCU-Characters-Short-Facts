@@ -172,7 +172,7 @@
   font-size: 20px;
 }
 
-/* Index.html: innehållet i section 2 */
+/* Index.html: innehållet i section 1 */
 
 .mainContent1Inner {
   display: flex;
@@ -188,3 +188,7 @@
 .mainContent1InnerImg img {
   width: 500px;
 }
+
+/* .mainContent1InnerImg img:hover {
+  transform: scale(1.5);
+} */
