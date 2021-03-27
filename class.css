@@ -235,3 +235,10 @@
   text-align: center;
   font-family: "Raleway", sans-serif;
 }
+
+/*  Index.html: Knappar som visar kronologisk ordning och inte  */
+
+#chronological,
+#dateOrder {
+  display: none;
+}
