@@ -69,23 +69,6 @@
         </div>
     </nav>
 
-  <!-- <main>
-        <div class="mcuMain">
-            <h1>Welcome to Marvel Cinematic Universe (MCU)</h1>
-        </div>
-        <div class="mainContent">
-
-            <div class="mainContentLeft">
-                <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2020/09/MCU-timeline.png" alt="MCU-timeline" width="500">
-            </div>
-
-            <div class="mainContentRight">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium excepturi maxime, harum odit, est ut nam in unde officia impedit odio sequi nostrum. Recusandae vero dolorum mollitia excepturi, ab quibusdam nam, praesentium, quam alias ad quis! Laboriosam veniam quos numquam architecto dolor accusamus deleniti neque, obcaecati quasi vero, consequuntur quo minima eligendi! Ducimus aspernatur atque reprehenderit a, quod id autem nihil aliquam quos odio optio natus temporibus maiores iusto veniam vero quasi corporis recusandae? Culpa, quas fuga? Error non, itaque quibusdam ad omnis ducimus quisquam fugiat quaerat in expedita mollitia aperiam nobis accusamus illum quod, impedit tempora vel eaque, molestias tempore quis? Ipsum illo voluptas voluptatum enim, non odio ullam modi perspiciatis ex nesciunt quibusdam, fugiat, aspernatur rerum sequi fugit illum quas voluptatem. Qui pariatur omnis explicabo aliquid.</p>
-            </div>
-
-        </div>
-    </main>   -->
-
     <main>
         <section class="mainHeroImg">
             <div class="mainHeroImgText">
@@ -112,8 +95,10 @@
                 <p>As I mentioned before, the MCU has more than 23 movies and 2 series, there are different ways to watch them. The movies take place over several years and are connected to each other, there are 2 different ways to watch them. One way to watch them is the years they take place in <strong>(chronological order)</strong> or in the years they were released <strong>(release date order)</strong> in theaters. You can get spoiled if you watch them in chronological order. But you might get some minor <strong>spoilers</strong> by watching the movies in chronological order.</p>
             </div>
             <div class="mainContent2Inner">
+                <button onclick="chronologicalOrder()">Chronological Order</button>
+                <button onclick="releaseDateOrder()">Release Date Order</button> 
                 <div class="tables">
-                    <div class="table1">
+                    <div class="table1" id="chronological">
                         <h2>Chronological Order</h2>
                         <table>
                             <tr>
@@ -247,8 +232,8 @@
                                 <td>Summer 2024</td>
                             </tr>
                         </table>
-                    </div> 
-                    <div class="table2">
+                    </div>
+                    <div class="table2" id="dateOrder">
                         <h2>Release Date Order</h2>
                         <table>
                             <tr>
@@ -438,3 +423,22 @@
     </div>    
 </body>
 </html>
+
+
+
+  <!-- <main>
+        <div class="mcuMain">
+            <h1>Welcome to Marvel Cinematic Universe (MCU)</h1>
+        </div>
+        <div class="mainContent">
+
+            <div class="mainContentLeft">
+                <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2020/09/MCU-timeline.png" alt="MCU-timeline" width="500">
+            </div>
+
+            <div class="mainContentRight">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium excepturi maxime, harum odit, est ut nam in unde officia impedit odio sequi nostrum. Recusandae vero dolorum mollitia excepturi, ab quibusdam nam, praesentium, quam alias ad quis! Laboriosam veniam quos numquam architecto dolor accusamus deleniti neque, obcaecati quasi vero, consequuntur quo minima eligendi! Ducimus aspernatur atque reprehenderit a, quod id autem nihil aliquam quos odio optio natus temporibus maiores iusto veniam vero quasi corporis recusandae? Culpa, quas fuga? Error non, itaque quibusdam ad omnis ducimus quisquam fugiat quaerat in expedita mollitia aperiam nobis accusamus illum quod, impedit tempora vel eaque, molestias tempore quis? Ipsum illo voluptas voluptatum enim, non odio ullam modi perspiciatis ex nesciunt quibusdam, fugiat, aspernatur rerum sequi fugit illum quas voluptatem. Qui pariatur omnis explicabo aliquid.</p>
+            </div>
+
+        </div>
+    </main>   -->
