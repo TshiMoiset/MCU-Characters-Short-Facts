@@ -255,3 +255,8 @@
   background-color: #0b0930;
   color: white;
 }
+
+button:hover {
+  color: red;
+  cursor: pointer;
+}
