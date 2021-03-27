@@ -238,7 +238,7 @@
 
 /*  Index.html: Knappar som visar kronologisk ordning och inte  */
 
-#chronological,
+#chronological,   /*  ID för knapparna. */
 #dateOrder {
   display: none;
 }
