@@ -9,6 +9,28 @@
   font-family: "Open Sans", sans-serif;
 }
 
+/*  Scrollen  */
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2c2a89;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #453aa4;
+}
+
 /* Logan bredvid headern  */
 .logo img {
   width: 50px;
