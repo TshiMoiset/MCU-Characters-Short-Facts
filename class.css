@@ -243,5 +243,15 @@
   display: none;
 }
 
+.watchOrderBtn {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
 .orderToWatchBtn {
+  padding: 3px 13px;
+  margin: 15px;
+  background-color: #0b0930;
+  color: white;
 }
