@@ -276,6 +276,7 @@
   margin: 15px;
   background-color: #0b0930;
   color: white;
+  border-radius: 10px;
 }
 
 button:hover {
