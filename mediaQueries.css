@@ -1,5 +1,5 @@
+/*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 900px) {
-  /*------------- @MEDIA ------------- @MEDIA -------------*/
   #json {
     display: grid;
     grid-template-columns: auto;
@@ -70,6 +70,7 @@
 
   .mainContent3InnerImg img {
     width: 600px;
+    margin: 10px;
   }
 
   .mainContent3InnerText h1 {
@@ -77,8 +78,8 @@
   }
 }
 
+/*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 426px) {
-  /*------------- @MEDIA ------------- @MEDIA -------------*/
   /*------------------  Texten i main section ------------------*/
   .mainHeroImgText h1 {
     font-size: 25px;
@@ -130,6 +131,7 @@
 
   .mainContent3InnerImg img {
     width: 395px;
+    margin: 10px;
   }
 
   .mainContent3InnerText h1 {
@@ -143,8 +145,8 @@
   }
 }
 
+/*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 376px) {
-  /*------------- @MEDIA ------------- @MEDIA -------------*/
   /*------------------  Texten i main section ------------------*/
   .mainHeroImgText h1 {
     font-size: 35px;
@@ -196,6 +198,7 @@
 
   .mainContent3InnerImg img {
     width: 345px;
+    margin: 10px;
   }
 
   .mainContent3InnerText h1 {
@@ -209,8 +212,8 @@
   }
 }
 
+/*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 321px) {
-  /*------------- @MEDIA ------------- @MEDIA -------------*/
   /*------------------  Texten i main section ------------------*/
   .mainHeroImgText h1 {
     font-size: 33px;
@@ -262,6 +265,7 @@
 
   .mainContent3InnerImg img {
     width: 285px;
+    margin: 10px;
   }
 
   .mainContent3InnerText h1 {
