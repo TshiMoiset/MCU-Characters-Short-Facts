@@ -188,7 +188,7 @@
 
 /*------------------  Index.html: innehållet i section 1  ------------------*/
 
-.mainContent1Inner {
+.mainContent1 {
   display: flex;
   justify-content: space-evenly;
   margin: 20px;

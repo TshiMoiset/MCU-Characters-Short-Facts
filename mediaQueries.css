@@ -1,4 +1,5 @@
 @media screen and (max-width: 900px) {
+  /*------------- @MEDIA ------------- @MEDIA -------------*/
   #json {
     display: grid;
     grid-template-columns: auto;
@@ -10,7 +11,7 @@
     bottom: 0; /*  Footern placerans längst ner i sidan  */
   }
 
-  /*  All innehåll i footern  */
+  /*------------------  All innehåll i footern  ------------------*/
 
   .footerContent {
     flex-wrap: wrap;
@@ -21,9 +22,9 @@
     margin: 5px 0;
   }
 
-  /* Index.html: innehållet i section 1 */
+  /*------------------  Index.html: innehållet i section 1  ------------------*/
 
-  .mainContent1Inner {
+  .mainContent1 {
     display: flex;
     flex-wrap: wrap;
     margin: 15px;
@@ -39,7 +40,7 @@
     width: 600px;
   }
 
-  /* Index.html: innehållet i section 2 */
+  /*------------------  Index.html: innehållet i section 2  ------------------*/
 
   table {
     margin: 20px;
@@ -52,22 +53,45 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  /*------------------ Index.html: innehållet i section 3  ------------------*/
+
+  .mainContent3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    text-align: center;
+  }
+
+  .mainContent3InnerText {
+    margin: 5px;
+    text-align: left;
+  }
+
+  .mainContent3InnerImg img {
+    width: 600px;
+  }
+
+  .mainContent3InnerText h1 {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 426px) {
-  /*  Texten i main section */
+  /*------------- @MEDIA ------------- @MEDIA -------------*/
+  /*------------------  Texten i main section ------------------*/
   .mainHeroImgText h1 {
     font-size: 25px;
   }
 
-  /*  WORK IN PROGRESS  */
+  /*------------------  WORK IN PROGRESS  ------------------*/
   .WorkInProgressText h1 {
     font-size: 30px;
   }
 
-  /* Index.html: innehållet i section 1 */
+  /*------------------  Index.html: innehållet i section 1  ------------------*/
 
-  .mainContent1Inner {
+  .mainContent1 {
     display: flex;
     flex-wrap: wrap;
     margin: 15px;
@@ -81,7 +105,7 @@
     width: 395px;
   }
 
-  /* Index.html: innehållet i section 2 */
+  /*------------------  Index.html: innehållet i section 2  ------------------*/
 
   table {
     width: 90%;
@@ -92,7 +116,27 @@
     flex-wrap: wrap;
   }
 
-  /*  Movies.html: Innehållet i section1 heroimgq */
+  /*------------------  Index.html: innehållet i section 3  ------------------*/
+
+  .mainContent3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+  }
+
+  .mainContent3InnerText {
+    margin: 5px;
+  }
+
+  .mainContent3InnerImg img {
+    width: 395px;
+  }
+
+  .mainContent3InnerText h1 {
+    text-align: center;
+  }
+
+  /*------------------  Movies.html: Innehållet i section1 heroimg  ------------------*/
 
   .heroImgSliderText h1 {
     font-size: 50px;
@@ -100,19 +144,20 @@
 }
 
 @media screen and (max-width: 376px) {
-  /*  Texten i main section */
+  /*------------- @MEDIA ------------- @MEDIA -------------*/
+  /*------------------  Texten i main section ------------------*/
   .mainHeroImgText h1 {
     font-size: 35px;
   }
 
-  /*  WORK IN PROGRESS  */
+  /*------------------  WORK IN PROGRESS  ------------------*/
   .WorkInProgressText h1 {
     font-size: 35px;
   }
 
-  /* Index.html: innehållet i section 1 */
+  /*------------------  Index.html: innehållet i section 1  ------------------*/
 
-  .mainContent1Inner {
+  .mainContent1 {
     display: flex;
     flex-wrap: wrap;
     margin: 15px;
@@ -126,7 +171,7 @@
     width: 345px;
   }
 
-  /* Index.html: innehållet i section 2 */
+  /*------------------   Index.html: innehållet i section 2 ------------------  */
 
   table {
     width: 90%;
@@ -137,7 +182,27 @@
     flex-wrap: wrap;
   }
 
-  /*  Movies.html: Innehållet i section1 heroimgq */
+  /*------------------  Index.html: innehållet i section 3  ------------------*/
+
+  .mainContent3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+  }
+
+  .mainContent3InnerText {
+    margin: 5px;
+  }
+
+  .mainContent3InnerImg img {
+    width: 345px;
+  }
+
+  .mainContent3InnerText h1 {
+    text-align: center;
+  }
+
+  /*------------------  Movies.html: Innehållet i section1 heroimgq ------------------  */
 
   .heroImgSliderText h1 {
     font-size: 40px;
@@ -145,19 +210,20 @@
 }
 
 @media screen and (max-width: 321px) {
-  /*  Texten i main section */
+  /*------------- @MEDIA ------------- @MEDIA -------------*/
+  /*------------------  Texten i main section ------------------*/
   .mainHeroImgText h1 {
     font-size: 33px;
   }
 
-  /*  WORK IN PROGRESS  */
+  /*------------------  WORK IN PROGRESS  ------------------*/
   .WorkInProgressText h1 {
     font-size: 33px;
   }
 
-  /* Index.html: innehållet i section 1 */
+  /*------------------  Index.html: innehållet i section 1  ------------------*/
 
-  .mainContent1Inner {
+  .mainContent1 {
     display: flex;
     flex-wrap: wrap;
     margin: 15px;
@@ -167,7 +233,7 @@
     width: 285px;
   }
 
-  /* Index.html: innehållet i section 2 */
+  /*------------------  Index.html: innehållet i section 2 ------------------ */
 
   table {
     width: 90%;
@@ -186,7 +252,23 @@
     font-size: 14px;
   }
 
-  /*  Movies.html: Innehållet i section1 heroimgq */
+  /*------------------  Index.html: innehållet i section 3  ------------------*/
+
+  .mainContent3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+  }
+
+  .mainContent3InnerImg img {
+    width: 285px;
+  }
+
+  .mainContent3InnerText h1 {
+    text-align: center;
+  }
+
+  /*------------------  Movies.html: Innehållet i section1 heroimg ------------------*/
 
   .heroImgSliderText h1 {
     font-size: 35px;
