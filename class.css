@@ -286,12 +286,31 @@ button:hover {
 
 /*------------------  Movies.html: Main hero image slider ------------------*/
 
-.slider {
+.heroImgSlide {
   min-height: 100vh;
   width: 100%;
   background-position: center;
   background-size: cover;
   animation: slide 20s infinite;
+}
+
+.heroImgSlideText {
+  width: 90%;
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heroImgSlideText h1 {
+  font-size: 62px;
+}
+
+.heroImgSlideText p {
+  margin: 10px 0 40px;
+  font-size: 20px;
 }
 
 @keyframes slide {
