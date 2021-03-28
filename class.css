@@ -265,6 +265,37 @@ button:hover {
   cursor: pointer;
 }
 
+/*------------------  Index.html: innehållet i section 3  ------------------*/
+
+.mainContent3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  align-items: center;
+}
+
+.mainContent3InnerImg img {
+  width: 500px;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.mainContent3InnerText h1 {
+  margin: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+.mainContent3InnerText {
+  text-align: center;
+  margin: 20px;
+}
+
+.mainContent3InnerText p {
+  text-align: left;
+}
+
 /*------------------  Movies.html: Main hero image slider ------------------*/
 
 .heroImgSliderText {
