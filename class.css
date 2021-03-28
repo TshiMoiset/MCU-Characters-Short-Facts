@@ -286,15 +286,16 @@ button:hover {
 
 /*------------------  Movies.html: Main hero image slider ------------------*/
 
-.heroImgSlide {
+.heroImgSlider {
   min-height: 100vh;
   width: 100%;
   background-position: center;
   background-size: cover;
   animation: slide 20s infinite;
+  transition: ease-out;
 }
 
-.heroImgSlideText {
+.heroImgSliderText {
   width: 90%;
   color: white;
   position: absolute;
@@ -304,11 +305,11 @@ button:hover {
   text-align: center;
 }
 
-.heroImgSlideText h1 {
+.heroImgSliderText h1 {
   font-size: 62px;
 }
 
-.heroImgSlideText p {
+.heroImgSliderText p {
   margin: 10px 0 40px;
   font-size: 20px;
 }
@@ -316,25 +317,55 @@ button:hover {
 @keyframes slide {
   0% {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+      url(heroImages/The\ infinity\ saga\ A.jpg);
+  }
+  20% {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+      url(heroImages/The\ infinity\ saga\ A.jpg);
+  }
+  40% {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
       url(heroImages/The\ Avengers\ poster.jpg);
   }
-  25% {
+
+  60% {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
       url(heroImages/Avengers\ Age\ of\ Ultron\ poster.jpg);
   }
 
-  50% {
+  80% {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
       url(heroImages/Avengers\ Infinity\ War\ poster.jpg);
   }
 
-  75% {
+  100% {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
       url(heroImages/Avengers\ Endgame\ poster.jpg);
+  }
+}
+
+/*@keyframes slide {
+  0% {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+      url(heroImages/The\ infinity\ saga\ A.jpg);
+  }
+  25% {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+      url(heroImages/The\ Avengers\ poster.jpg);
+  }
+
+  50% {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+      url(heroImages/Avengers\ Age\ of\ Ultron\ poster.jpg);
+  }
+
+  75% {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+      url(heroImages/Avengers\ Infinity\ War\ poster.jpg);
   }
 
   100% {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-      url(heroImages/The\ Avengers\ poster.jpg);
+      url(heroImages/Avengers\ Endgame\ poster.jpg);
   }
-}
+}*/
