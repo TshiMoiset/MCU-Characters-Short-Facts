@@ -91,6 +91,12 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  /*  Movies.html: Innehållet i section1 heroimgq */
+
+  .heroImgSliderText h1 {
+    font-size: 50px;
+  }
 }
 
 @media screen and (max-width: 376px) {
@@ -129,6 +135,12 @@
   .tables {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  /*  Movies.html: Innehållet i section1 heroimgq */
+
+  .heroImgSliderText h1 {
+    font-size: 40px;
   }
 }
 
@@ -172,5 +184,11 @@
 
   .tables td {
     font-size: 14px;
+  }
+
+  /*  Movies.html: Innehållet i section1 heroimgq */
+
+  .heroImgSliderText h1 {
+    font-size: 35px;
   }
 }
