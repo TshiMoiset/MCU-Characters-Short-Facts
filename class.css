@@ -9,6 +9,36 @@
   font-family: "Open Sans", sans-serif;
 }
 
+/*------------------  WORK IN PROGRESS  ------------------*/
+
+.WorkInProgress {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(images/ERROR\ 404.jpg);
+  background-position: center;
+  position: relative;
+}
+
+.WorkInProgressText {
+  width: 90%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.WorkInProgressText h1 {
+  font-size: 62px;
+}
+
+.WorkInProgressText p {
+  margin: 10px 0 40px;
+  font-size: 20px;
+}
+
 /*  Scrollen  */
 
 /* width */
@@ -125,27 +155,7 @@
   margin: 20px;
 }
 
-/* Main informstion i Index.html  TEST 
-
-.mcuMain h1 {
-  text-align: center;
-  margin-bottom: 10px;
-  font-size: 3em;
-}
-
-.mainContent {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 1em;
-}
-
-.mainContent {
-  margin-left: 9.5vw;
-  margin-right: 9.5vw;
-} */
-
-/*  Innehållet i Main */
-
+/*------------------  Index.html HeroImg ------------------*/
 .mainHeroImg {
   min-height: 100vh;
   width: 100%;
@@ -175,37 +185,7 @@
   font-size: 20px;
 }
 
-/* WORK IN PROGRESS */
-
-.WorkInProgress {
-  min-height: 100vh;
-  width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(images/ERROR\ 404.jpg);
-  background-position: center;
-  position: relative;
-}
-
-.WorkInProgressText {
-  width: 90%;
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.WorkInProgressText h1 {
-  font-size: 62px;
-}
-
-.WorkInProgressText p {
-  margin: 10px 0 40px;
-  font-size: 20px;
-}
-
-/* Index.html: innehållet i section 1 */
+/*------------------  Index.html: innehållet i section 1  ------------------*/
 
 .mainContent1Inner {
   display: flex;
@@ -232,7 +212,7 @@
   -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 
-/* Index.html: innehållet i section 2 */
+/*------------------  Index.html: innehållet i section 2  ------------------*/
 
 .mainContent2InnerText h1 {
   margin: 10px;
@@ -258,7 +238,7 @@
   font-family: "Raleway", sans-serif;
 }
 
-/*  Index.html: Knappar som visar kronologisk ordning och inte  */
+/*------------------  Index.html: Knappar som visar kronologisk ordning och inte  ------------------*/
 
 #chronological,   /*  ID för knapparna. */
 #dateOrder {
