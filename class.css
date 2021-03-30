@@ -337,24 +337,22 @@ button:hover {
   40% {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
       url(heroImages/The\ Avengers\ poster.jpg);
-    opacity: 1;
   }
 
   60% {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
       url(heroImages/Avengers\ Age\ of\ Ultron\ poster.jpg);
-    opacity: 0;
   }
 
   80% {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
       url(heroImages/Avengers\ Infinity\ War\ poster.jpg);
-    opacity: 0;
   }
 
   100% {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
       url(heroImages/Avengers\ Endgame\ poster.jpg);
-    opacity: 0;
   }
 }
+
+/*------------------  Movies.html: Main Section2  ------------------*/
