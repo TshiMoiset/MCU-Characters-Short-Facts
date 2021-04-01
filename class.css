@@ -361,13 +361,16 @@ button:hover {
 
 /*------------------  Movies.html: Main Section3  ------------------*/
 
+.movieSection3 {
+  margin: 20px;
+}
+
 .moviePoster {
   display: grid;
   place-items: center;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 10px;
   row-gap: 5px;
-  margin: 20px;
 }
 
 .movieText {
