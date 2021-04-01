@@ -246,7 +246,7 @@
   display: none;
 }
 
-.watchOrderBtn {
+.watchOrderBtns {
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -359,7 +359,10 @@ button:hover {
 
 /*------------------  Movies.html: Main Section2  ------------------*/
 
-/*------------------  Movies.html: Main Section3  ------------------*/
+.movieSection2 {
+}
+
+/*------------------  Movies.html: Main Section3  ------------------
 
 .movieSection3 {
   margin: 20px;
@@ -396,4 +399,4 @@ button:hover {
   -moz-box-shadow: 10px 10px 5px #ccc;
   -webkit-box-shadow: 10px 10px 5px #ccc;
   -khtml-box-shadow: 10px 10px 5px #ccc;
-}
+}*/
