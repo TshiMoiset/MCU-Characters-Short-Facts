@@ -370,11 +370,13 @@ button:hover {
   place-items: center;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 10px;
-  row-gap: 5px;
+  row-gap: 1em;
 }
 
 .movieText {
-  margin-top: 6px;
+  position: relative;
+  margin-top: 10px;
+  white-space: normal;
 }
 
 .movie h5 {
