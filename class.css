@@ -370,6 +370,10 @@ button:hover {
   margin: 20px;
 }
 
+.movieText {
+  margin-top: 6px;
+}
+
 .movie h5 {
   font-size: 11px;
   color: grey;
@@ -383,4 +387,8 @@ button:hover {
 .moviePoster img {
   width: 190px;
   height: auto;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
 }
