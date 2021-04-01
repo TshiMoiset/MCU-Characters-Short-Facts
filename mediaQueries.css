@@ -210,6 +210,34 @@
   .heroImgSliderText h1 {
     font-size: 40px;
   }
+
+  /*------------------  Movies.html: Main Section3  ------------------
+
+  .movieSection3 {
+    margin: 3px;
+    place-items: center;
+  }
+
+  .moviePoster {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 20px;
+  }
+
+  .movieText {
+    margin-top: 0.4rem;
+  }
+
+  .moviePoster img {
+    width: 150px;
+    height: auto;
+  }
+
+  #imgPushUp {
+    margin-top: -13px;
+  } */
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
@@ -278,7 +306,7 @@
     font-size: 35px;
   }
 
-  /*------------------  Movies.html: Main Section3  ------------------*/
+  /*------------------  Movies.html: Main Section3  ------------------
 
   .movieSection3 {
     margin: 3px;
@@ -302,6 +330,8 @@
   }
 
   .imgPushUp {
-    margin-top: -14px;
+    margin-top: -14px; /*  Drar upp bilden så att de är i samma längd. 
   }
+
+  */
 }
