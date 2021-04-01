@@ -328,30 +328,32 @@ button:hover {
 @keyframes slide {
   0% {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-      url(heroImages/The\ Infinity\ Saga\ A.jpg);
+      url(heroImages/The\ Infinity\ Saga\ A\ HeroImg.jpg);
   }
+
   20% {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-      url(heroImages/The\ Infinity\ Saga\ A.jpg);
+      url(heroImages/The\ Infinity\ Saga\ A\ HeroImg.jpg);
   }
+
   40% {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-      url(heroImages/The\ Avengers\ poster.jpg);
+      url(heroImages/The\ Avengers\ HeroImg.jpg);
   }
 
   60% {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-      url(heroImages/Avengers\ Age\ of\ Ultron\ poster.jpg);
+      url(heroImages/Avengers\ Age\ of\ Ultron\ HeroImg.jpg);
   }
 
   80% {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-      url(heroImages/Avengers\ Infinity\ War\ poster.jpg);
+      url(heroImages/Avengers\ Infinity\ War\ poster\ HeroImg.jpg);
   }
 
   100% {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-      url(heroImages/Avengers\ Endgame\ poster.jpg);
+      url(heroImages/Avengers\ Endgame\ HeroImg.jpg);
   }
 }
 
