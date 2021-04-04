@@ -10,6 +10,10 @@ header {
   padding: 20px 10px;
 }
 
+a {
+  text-decoration: none;
+}
+
 hr {
   margin: 20px;
   height: 2px;

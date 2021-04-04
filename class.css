@@ -363,29 +363,27 @@ button:hover {
   margin: 20px;
 }
 
-/*------------------  Movies.html: Main Section3  ------------------
+/*------------------  Movies.html: Main Section3  ------------------*/
 
 .movieSection3 {
   margin: 20px;
-}
-
-.moviePoster {
   display: grid;
-  place-items: center;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 10px;
   row-gap: 1em;
 }
 
-.movieText {
-  position: relative;
-  margin-top: 10px;
-  white-space: normal;
+.movieImg img {
+  width: 190px;
+  height: auto;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 
-.movie h5 {
-  font-size: 11px;
-  color: grey;
+.posterText {
+  margin-top: 8px;
 }
 
 .movie h4 {
@@ -393,11 +391,7 @@ button:hover {
   font-family: "Raleway", sans-serif;
 }
 
-.moviePoster img {
-  width: 190px;
-  height: auto;
-  box-shadow: 10px 10px 5px #ccc;
-  -moz-box-shadow: 10px 10px 5px #ccc;
-  -webkit-box-shadow: 10px 10px 5px #ccc;
-  -khtml-box-shadow: 10px 10px 5px #ccc;
-}*/
+.movie h5 {
+  font-size: 11px;
+  color: grey;
+}
