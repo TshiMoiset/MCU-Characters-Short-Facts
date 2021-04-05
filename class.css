@@ -258,7 +258,6 @@
   margin: 15px;
   background-color: #0b0930;
   color: white;
-  border-radius: 10px;
 }
 
 button:hover {
@@ -368,10 +367,9 @@ button:hover {
   margin: 20px;
 }
 
-/*------------------  Movies.html: Main Section3  ------------------*/
+/*------------------  Movies.html: Main Section3 & Section4   ------------------*/
 
 .movieSection3 {
-  margin: 20px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 10px;
@@ -410,4 +408,19 @@ button:hover {
 
 .movieImg img:hover {
   transform: scale(1.05);
+}
+
+/*------------------  Movies.html: All  ------------------*/
+
+.sectionTitle {
+  margin-top: -10px;
+}
+
+/*------------------  Movies.html: Main Section4  ------------------*/
+.moviePoster {
+  display: grid;
+  margin: 20px 0;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 10px;
+  row-gap: 1em;
 }
