@@ -383,15 +383,21 @@ button:hover {
 }
 
 .posterText {
-  margin-top: 8px;
+  margin-top: 11px;
 }
 
 .movie h4 {
   font-size: 13px;
   font-family: "Raleway", sans-serif;
+  color: black;
 }
 
 .movie h5 {
   font-size: 11px;
   color: grey;
+}
+
+.movieImg img:hover {
+  transform: scale(1.04);
+  transition: all 0.3s;
 }
