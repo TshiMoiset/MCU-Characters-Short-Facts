@@ -1,4 +1,62 @@
 /*------------- @MEDIA ------------- @MEDIA -------------*/
+@media screen and (max-width: 1024px) {
+  footer {
+    position: relative;
+    bottom: 0; /*  Footern placerans längst ner i sidan  */
+  }
+
+  /*------------------  Index.html: innehållet i section 2  ------------------*/
+
+  table {
+    margin: 20px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .tables {
+    margin: 20px;
+    text-align: center;
+  }
+
+  /*------------------ Index.html: innehållet i section 3  ------------------*/
+
+  .mainContent3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    text-align: center;
+  }
+
+  .mainContent3InnerText {
+    margin: 5px;
+    text-align: left;
+  }
+
+  .mainContent3InnerImg img {
+    width: 600px;
+    margin: 10px;
+  }
+
+  .mainContent3InnerText h1 {
+    text-align: center;
+  }
+
+  /*------------------  Movies.html: Main Section3  ------------------*/
+
+  .movieSection3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+  }
+
+  .movieImg img {
+    width: 175px;
+    height: auto;
+  }
+}
+
+/*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 900px) {
   #json {
     display: grid;
