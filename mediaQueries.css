@@ -76,6 +76,20 @@
   .mainContent3InnerText h1 {
     text-align: center;
   }
+
+  /*------------------  Movies.html: Main Section3  ------------------*/
+
+  .movieSection3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+  }
+
+  .movieImg img {
+    width: 175px;
+    height: auto;
+  }
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
