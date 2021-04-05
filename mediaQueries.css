@@ -277,4 +277,19 @@
   .heroImgSliderText h1 {
     font-size: 35px;
   }
+
+  /*------------------  Movies.html: Main Section3  ------------------*/
+
+  .movieSection3 {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+  }
+
+  .movieImg img {
+    width: 135px;
+    height: auto;
+  }
 }
