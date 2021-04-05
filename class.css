@@ -380,7 +380,7 @@ button:hover {
   -moz-box-shadow: 10px 10px 5px #ccc;
   -webkit-box-shadow: 10px 10px 5px #ccc;
   -khtml-box-shadow: 10px 10px 5px #ccc;
-  transition-duration: 0.5s;
+  transition-duration: 300ms;
 }
 
 /*  Texten under bildenrna  */
@@ -389,7 +389,7 @@ button:hover {
 }
 
 .movie h4 {
-  font-size: 13px;
+  font-size: 15px;
   font-family: "Raleway", sans-serif;
   color: black;
 }
@@ -397,6 +397,10 @@ button:hover {
 .movie h5 {
   font-size: 11px;
   color: grey;
+}
+
+.movie:hover h4 {
+  color: red;
 }
 
 .movieImg img:hover {
