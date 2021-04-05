@@ -61,7 +61,6 @@ footer a {
 }
 
 footer a:hover {
-  transform: scale(1.1);
   transition: all 0.3s ease 0.1s;
   font-weight: 600;
   color: red;

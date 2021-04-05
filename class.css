@@ -380,8 +380,10 @@ button:hover {
   -moz-box-shadow: 10px 10px 5px #ccc;
   -webkit-box-shadow: 10px 10px 5px #ccc;
   -khtml-box-shadow: 10px 10px 5px #ccc;
+  transition-duration: 0.5s;
 }
 
+/*  Texten under bildenrna  */
 .posterText {
   margin-top: 11px;
 }
@@ -398,6 +400,5 @@ button:hover {
 }
 
 .movieImg img:hover {
-  transform: scale(1.04);
-  transition: all 0.3s;
+  transform: scale(1.05);
 }
