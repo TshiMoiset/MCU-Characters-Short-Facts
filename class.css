@@ -367,10 +367,17 @@ button:hover {
   margin: 20px;
 }
 
+/*------------------  Movies.html: All  ------------------*/
+
+.sectionTitle {
+  margin-top: -10px;
+}
+
 /*------------------  Movies.html: Main Section3 & Section4   ------------------*/
 
-.movieSection3 {
+.moviePoster {
   display: grid;
+  margin: 20px 0;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 10px;
   row-gap: 1em;
@@ -408,19 +415,4 @@ button:hover {
 
 .movieImg img:hover {
   transform: scale(1.05);
-}
-
-/*------------------  Movies.html: All  ------------------*/
-
-.sectionTitle {
-  margin-top: -10px;
-}
-
-/*------------------  Movies.html: Main Section4  ------------------*/
-.moviePoster {
-  display: grid;
-  margin: 20px 0;
-  grid-template-columns: repeat(6, 1fr);
-  column-gap: 10px;
-  row-gap: 1em;
 }
