@@ -143,6 +143,20 @@
   .heroImgSliderText h1 {
     font-size: 50px;
   }
+
+  /*------------------  Movies.html: Main Section3  ------------------*/
+
+  .movieSection3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+  }
+
+  .movieImg img {
+    width: 188px;
+    height: auto;
+  }
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
@@ -209,6 +223,20 @@
 
   .heroImgSliderText h1 {
     font-size: 40px;
+  }
+
+  /*------------------  Movies.html: Main Section3  ------------------*/
+
+  .movieSection3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+  }
+
+  .movieImg img {
+    width: 163px;
+    height: auto;
   }
 }
 
