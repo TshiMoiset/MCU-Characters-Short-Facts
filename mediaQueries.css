@@ -1,21 +1,38 @@
 /*------------- @MEDIA ------------- @MEDIA -------------*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   footer {
     position: relative;
     bottom: 0; /*  Footern placerans längst ner i sidan  */
   }
 
-  /*------------------  Index.html: innehållet i section 2  ------------------*/
+  /*------------------  Index.html: innehållet i section 1  ------------------*/
 
-  table {
-    margin: 20px;
-    width: 90%;
+  .mainContent1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
     text-align: center;
   }
 
-  .tables {
-    margin: 20px;
+  .mainContent1InnerText {
+    margin: 5px;
+    text-align: left;
+  }
+
+  .mainContent1InnerImg img {
+    width: 600px;
+  }
+
+  /*------------------  Index.html: innehållet i section 2  ------------------*/
+
+  table {
+    border-collapse: collapse;
+    width: 95%;
     text-align: center;
+  }
+
+  table th {
+    width: 33.3%;
   }
 
   /*------------------ Index.html: innehållet i section 3  ------------------*/
@@ -41,36 +58,27 @@
     text-align: center;
   }
 
-  /*------------------  Movies.html: Main Section3  ------------------*/
+  /*------------------  Movies.html: Main Section3 & Section4   ------------------*/
+
+  .moviePoster {
+    display: grid;
+    margin: 14px 0;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+  }
 
   .movieImg img {
-    width: 239px;
+    width: 175px;
     height: auto;
   }
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
-@media screen and (max-width: 900px) {
-  #json {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-  }
-
+@media screen and (max-width: 769px) {
   footer {
     position: relative;
     bottom: 0; /*  Footern placerans längst ner i sidan  */
-  }
-
-  /*------------------  All innehåll i footern  ------------------*/
-
-  .footerContent {
-    flex-wrap: wrap;
-    flex-direction: column; /* Footern flexar i en kolumn 1 2 3 */
-  }
-
-  .footerContent .box {
-    margin: 5px 0;
   }
 
   /*------------------  Index.html: innehållet i section 1  ------------------*/
@@ -128,7 +136,15 @@
     text-align: center;
   }
 
-  /*------------------  Movies.html: Main Section3  ------------------*/
+  /*------------------  Movies.html: Main Section3 & Section4   ------------------*/
+
+  .moviePoster {
+    display: grid;
+    margin: 14px 0;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+  }
 
   .movieImg img {
     width: 175px;
@@ -202,8 +218,15 @@
     font-size: 50px;
   }
 
-  /*------------------  Movies.html: Main Section3  ------------------*/
+  /*------------------  Movies.html: Main Section3 & Section4   ------------------*/
 
+  .moviePoster {
+    display: grid;
+    margin: 14px 0;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+  }
   .movieImg img {
     width: 188px;
     height: auto;
@@ -270,13 +293,13 @@
     text-align: center;
   }
 
-  /*------------------  Movies.html: Innehållet i section1 heroimgq ------------------  */
+  /*------------------  Movies.html: Innehållet i section1 heroimg ------------------  */
 
   .heroImgSliderText h1 {
     font-size: 40px;
   }
 
-  /*------------------  Movies.html: Main Section3  ------------------*/
+  /*------------------  Movies.html: Main Section3 & Section4   ------------------*/
 
   .moviePoster {
     display: grid;
