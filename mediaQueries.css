@@ -1,4 +1,96 @@
 /*------------- @MEDIA ------------- @MEDIA -------------*/
+@media screen and (max-width: 1440px) {
+  footer {
+    position: relative;
+    bottom: 0; /*  Footern placerans längst ner i sidan  */
+  }
+
+  /*------------------  Index.html: innehållet i section 1  ------------------*/
+
+  .mainContent1 {
+    display: flex;
+    text-align: center;
+    margin: -55px 0px;
+  }
+
+  .mainContent1InnerText {
+    margin: 50px;
+    font-size: 23px;
+    text-align: left;
+  }
+
+  .mainContent1InnerImg img {
+    width: 800px;
+    height: auto;
+  }
+
+  /*------------------  Index.html: innehållet i section 2  ------------------*/
+
+  .mainContent2InnerText {
+    font-size: 23px;
+  }
+
+  button {
+    font-size: 23px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 95%;
+    text-align: center;
+  }
+
+  table th {
+    width: 33.3%;
+    font-size: 25px;
+  }
+
+  table td {
+    font-size: 25px;
+  }
+
+  /*------------------ Index.html: innehållet i section 3  ------------------*/
+
+  .mainContent3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    text-align: center;
+  }
+
+  .mainContent3InnerText {
+    margin: 5px;
+    text-align: left;
+    font-size: 23px;
+  }
+
+  .mainContent3InnerImg img {
+    width: 600px;
+    height: auto;
+    margin: 10px;
+  }
+
+  .mainContent3InnerText h1 {
+    text-align: center;
+  }
+
+  /*------------------  Movies.html: Main Section3 & Section4   ------------------*/
+
+  .moviePoster {
+    display: grid;
+    margin: 14px 0;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+  }
+
+  .movieImg img {
+    width: 188px;
+    height: auto;
+  }
+}
+
+/*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 1025px) {
   footer {
     position: relative;
