@@ -297,6 +297,12 @@ button:hover {
   text-align: left;
 }
 
+/*------------------  Movies.html: All  ------------------*/
+
+.sectionTitle {
+  margin-top: -10px;
+}
+
 /*------------------  Movies.html: Main hero image slider ------------------*/
 
 .movieSection1 {
@@ -366,12 +372,6 @@ button:hover {
 
 .movieSection2 {
   margin: 20px;
-}
-
-/*------------------  Movies.html: All  ------------------*/
-
-.sectionTitle {
-  margin-top: -10px;
 }
 
 /*------------------  Movies.html: Main Section3 & Section4   ------------------*/

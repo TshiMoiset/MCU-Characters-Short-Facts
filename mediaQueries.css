@@ -43,13 +43,6 @@
 
   /*------------------  Movies.html: Main Section3  ------------------*/
 
-  .movieSection3 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 10px;
-    row-gap: 1em;
-  }
-
   .movieImg img {
     width: 239px;
     height: auto;
@@ -137,13 +130,6 @@
 
   /*------------------  Movies.html: Main Section3  ------------------*/
 
-  .movieSection3 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 10px;
-    row-gap: 1em;
-  }
-
   .movieImg img {
     width: 175px;
     height: auto;
@@ -217,13 +203,6 @@
   }
 
   /*------------------  Movies.html: Main Section3  ------------------*/
-
-  .movieSection3 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 10px;
-    row-gap: 1em;
-  }
 
   .movieImg img {
     width: 188px;
@@ -299,8 +278,9 @@
 
   /*------------------  Movies.html: Main Section3  ------------------*/
 
-  .movieSection3 {
+  .moviePoster {
     display: grid;
+    margin: 14px 0;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
     row-gap: 1em;
@@ -378,10 +358,11 @@
     font-size: 35px;
   }
 
-  /*------------------  Movies.html: Main Section3  ------------------*/
+  /*------------------  Movies.html: Main Section3 & Section4   ------------------*/
 
-  .movieSection3 {
+  .moviePoster {
     display: grid;
+    margin: 14px 0;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
     row-gap: 1em;
