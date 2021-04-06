@@ -63,13 +63,13 @@
   .moviePoster {
     display: grid;
     margin: 14px 0;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     column-gap: 10px;
     row-gap: 1em;
   }
 
   .movieImg img {
-    width: 175px;
+    width: 188px;
     height: auto;
   }
 }
