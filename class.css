@@ -378,7 +378,7 @@ button:hover {
 
 .moviePoster {
   display: grid;
-  margin: 20px 0;
+  margin: 14px 0;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 10px;
   row-gap: 1em;
