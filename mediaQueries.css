@@ -78,6 +78,20 @@
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 426px) {
+  /*------------------  Footern------------------*/
+  footer {
+    position: relative;
+    bottom: 0;
+  }
+
+  .footerContent {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .footerContent .box {
+    margin: 5px 0;
+  }
   /*------------------  Texten i main section ------------------*/
   .mainHeroImgText h1 {
     font-size: 25px;
@@ -159,6 +173,21 @@
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 376px) {
+  /*------------------  Footern------------------*/
+  footer {
+    position: relative;
+    bottom: 0;
+  }
+
+  .footerContent {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .footerContent .box {
+    margin: 5px 0;
+  }
+
   /*------------------  Texten i main section ------------------*/
   .mainHeroImgText h1 {
     font-size: 35px;
@@ -241,6 +270,21 @@
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 321px) {
+  /*------------------  Footern------------------*/
+  footer {
+    position: relative;
+    bottom: 0;
+  }
+
+  .footerContent {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .footerContent .box {
+    margin: 5px 0;
+  }
+
   /*------------------  Texten i main section ------------------*/
   .mainHeroImgText h1 {
     font-size: 33px;
