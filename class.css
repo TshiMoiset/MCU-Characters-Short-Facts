@@ -9,6 +9,93 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.leftContent img {
+  width: 10em;
+  height: auto;
+  margin-top: 2em;
+  transition-duration: 500ms;
+}
+
+.leftContent img:hover {
+  transform: scale(1.09);
+}
+
+.footerContent .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 15px;
+}
+
+.footerContent h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footerContent li {
+  padding: 7px 0px;
+}
+
+.leftContent {
+  text-align: center;
+}
+
+.leftContent p {
+  color: white;
+}
+
+.bottomContent {
+  border-top: solid 1px white;
+  border-bottom: solid 1px white;
+}
+
+.bottomContent a {
+  font-size: 14px;
+  transition-duration: 300ms;
+}
+
+.bottomContent ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.copyright p {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+.copyright {
+  padding: 10px;
+}
+
+.box .content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+.box .content:before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background-color: #1a1a64;
+}
+
+.box .content:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 15%;
+  background-color: #2c2a89;
+  top: -10px;
+}
 /*------------------  WORK IN PROGRESS  ------------------*/
 
 .WorkInProgress {
@@ -40,7 +127,7 @@
   font-size: 20px;
 }
 
-/*  Scrollen  */
+/*------------------  Scrollen  ------------------*/
 
 /* width */
 ::-webkit-scrollbar {
@@ -73,18 +160,18 @@
   transition: all 0.3s ease 0.1s;
 }
 
-/*  Logan & Rubriken i headern  */
+/*------------------  Logan & Rubriken i headern  ------------------*/
 .headerContent a {
   float: left;
 }
 
-/*  Rubriken i headern  */
+/*------------------  Rubriken i headern  ------------------*/
 .headerTitle {
   text-align: center;
   margin-right: 3em;
 }
 
-/*  Navigationen  */
+/*------------------  Navigationen  ------------------*/
 .menuBar {
   border-top: solid 1px white;
   background-color: #0b0930;
@@ -108,7 +195,7 @@
   transition: all 0.3s ease 0.1s;
 }
 
-/*  All innehåll i footern  */
+/*------------------  All innehåll i footern  ------------------
 
 .footerContent {
   display: flex;
@@ -147,7 +234,7 @@
   border-top: solid 1px white;
   background-color: #0b0930;
   color: white;
-}
+}*/
 
 #json {
   display: grid;
