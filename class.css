@@ -152,12 +152,12 @@
 /* Logan bredvid headern  */
 .logo img {
   width: 50px;
-  height: 50px;
+  height: auto;
+  transition-duration: 500ms;
 }
 
 .logo img:hover {
   transform: scale(1.2);
-  transition: all 0.3s ease 0.1s;
 }
 
 /*------------------  Logan & Rubriken i headern  ------------------*/
