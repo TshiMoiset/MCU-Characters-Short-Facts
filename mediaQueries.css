@@ -291,28 +291,16 @@
     display: none;
   }
 
-  .bottomContent a {
-    font-size: 13px;
-  }
-
-  .copyright p {
-    font-size: 10px;
-  }
-
   /*------------------  Texten i main section ------------------*/
   .mainHeroImgText h1 {
     font-size: 30px;
-  }
-
-  /*------------------  WORK IN PROGRESS  ------------------*/
-  .WorkInProgressText h1 {
-    font-size: 35px;
   }
 
   /*------------------  Index.html: innehållet i section 1  ------------------*/
 
   .mainContent1InnerImg img {
     width: 320px;
+    height: auto;
   }
 
   /*------------------  Index.html: innehållet i section 3  ------------------*/
