@@ -173,6 +173,84 @@
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
+@media screen and (max-width: 412px) {
+  /*------------------  Footern------------------*/
+  footer {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+  }
+
+  .leftContent {
+    display: none;
+  }
+
+  /*------------------  Texten i main section ------------------*/
+  .mainHeroImgText h1 {
+    font-size: 30px;
+  }
+
+  /*------------------  WORK IN PROGRESS  ------------------*/
+  .WorkInProgressText h1 {
+    font-size: 40px;
+  }
+
+  .WorkInProgressText p {
+    font-size: 25px;
+  }
+
+  /*------------------  Index.html: innehållet i section 1  ------------------*/
+
+  .mainContent1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+  }
+
+  .mainContent1InnerImg img {
+    width: 370px;
+    height: auto;
+  }
+
+  /*------------------  Index.html: innehållet i section 2  ------------------*/
+
+  .mainContent2InnerText {
+    margin: 0;
+  }
+
+  /*------------------  Index.html: innehållet i section 3  ------------------*/
+
+  .mainContent3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+  }
+
+  .mainContent3InnerText {
+    margin: 5px;
+  }
+
+  .mainContent3InnerImg img {
+    width: 370px;
+    height: auto;
+  }
+
+  /*------------------  Movies.html: Main Section3 & Section4   ------------------*/
+
+  .moviePoster {
+    display: grid;
+    margin: 14px 0;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+  }
+  .movieImg img {
+    width: 181px;
+    height: auto;
+  }
+}
+
+/*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 376px) {
   /*------------------  Footern------------------*/
   footer {
