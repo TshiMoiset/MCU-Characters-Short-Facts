@@ -190,7 +190,7 @@
   }
 
   .copyright p {
-    font-size: 1px;
+    font-size: 10px;
   }
 
   /*------------------  Texten i main section ------------------*/
@@ -272,6 +272,10 @@
     height: auto;
   }
 }
+
+@media screen and (max-width: 361) {
+  /*------------------  Footern------------------*/
+
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 321px) {
