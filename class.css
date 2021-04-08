@@ -26,8 +26,8 @@
 }
 
 .footerContent {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-evenly;
   padding: 15px;
 }
 
