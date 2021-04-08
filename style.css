@@ -51,7 +51,14 @@ tr:nth-child(odd) {
 }
 
 footer {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
   background: #0b0930;
+}
+
+footer p {
+  color: white;
 }
 
 footer h2 {
@@ -62,6 +69,7 @@ footer h2 {
 footer ul {
   list-style: none;
 }
+
 footer a, li{
   color: white;
   list-style: none;
