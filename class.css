@@ -58,6 +58,15 @@
   transition-duration: 300ms;
 }
 
+.footerLinks {
+  transition-duration: 900ms;
+}
+
+.footerLinks:hover {
+  color: red;
+  text-decoration: underline;
+}
+
 .bottomContent ul {
   display: flex;
   justify-content: space-evenly;

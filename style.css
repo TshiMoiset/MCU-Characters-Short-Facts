@@ -54,20 +54,6 @@ footer {
   background: #0b0930;
 }
 
-footer a, li{
-  color: white;
-  list-style: none;
-}
-
-footer a {
-  transition-duration: 300ms;
-}
-
-footer a:hover {
-  font-weight: 600;
-  color: red;
-}
-
 footer h2 {
   font-size: 20px;
   color: white;
@@ -76,6 +62,14 @@ footer h2 {
 footer ul {
   list-style: none;
 }
+footer a, li{
+  color: white;
+  list-style: none;
+}
+
+
+
+
 
 /*
 
