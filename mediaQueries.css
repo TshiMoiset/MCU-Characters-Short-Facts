@@ -10,26 +10,25 @@
   .mainContent1 {
     display: flex;
     flex-wrap: wrap;
-    margin: 15px;
-    text-align: center;
   }
 
   .mainContent1InnerText {
-    margin: 5px;
-    text-align: left;
+    margin: 0px;
   }
 
   .mainContent1InnerImg img {
-    width: 600px;
+    width: 725px;
+    height: auto;
   }
 
   /*------------------  Index.html: innehållet i section 2  ------------------*/
 
+  .mainContent2InnerText {
+    margin: 0;
+  }
+
   table {
-    margin: 20px;
-    border-collapse: collapse;
     width: 95vw;
-    text-align: center;
   }
 
   .tables {
@@ -42,17 +41,16 @@
   .mainContent3 {
     display: flex;
     flex-wrap: wrap;
-    margin: 15px;
-    text-align: center;
   }
 
   .mainContent3InnerText {
-    margin: 5px;
+    margin: 0px;
     text-align: left;
   }
 
   .mainContent3InnerImg img {
     width: 600px;
+    height: auto;
     margin: 10px;
   }
 
