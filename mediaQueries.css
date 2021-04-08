@@ -221,6 +221,11 @@
 
   /*------------------   Index.html: innehållet i section 2 ------------------  */
 
+  .mainContent2InnerText {
+    /* Texten i under how to watch  */
+    margin: 0;
+  }
+
   table {
     width: 90%;
   }
@@ -273,9 +278,71 @@
   }
 }
 
-@media screen and (max-width: 361) {
+/*------------- @MEDIA ------------- @MEDIA -------------*/
+@media screen and (max-width: 361px) {
   /*------------------  Footern------------------*/
+  footer {
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+  }
 
+  .leftContent {
+    display: none;
+  }
+
+  .bottomContent a {
+    font-size: 13px;
+  }
+
+  .copyright p {
+    font-size: 10px;
+  }
+
+  /*------------------  Texten i main section ------------------*/
+  .mainHeroImgText h1 {
+    font-size: 30px;
+  }
+
+  /*------------------  WORK IN PROGRESS  ------------------*/
+  .WorkInProgressText h1 {
+    font-size: 35px;
+  }
+
+  /*------------------  Index.html: innehållet i section 1  ------------------*/
+
+  .mainContent1InnerImg img {
+    width: 320px;
+  }
+
+  /*------------------  Index.html: innehållet i section 3  ------------------*/
+
+  .mainContent3InnerImg img {
+    width: 320px;
+    height: auto;
+  }
+
+  /*------------------  Movies.html: Innehållet i section1 heroimg ------------------  */
+
+  .heroImgSliderText h1 {
+    font-size: 40px;
+  }
+
+  /*------------------  Movies.html: Main Section3 & Section4   ------------------*/
+
+  .moviePoster {
+    display: grid;
+    margin: 14px 0;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+  }
+
+  .movieImg img {
+    width: 163px;
+    height: auto;
+  }
+}
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 321px) {
