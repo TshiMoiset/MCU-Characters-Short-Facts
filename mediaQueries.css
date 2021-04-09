@@ -161,14 +161,15 @@
     bottom: 0;
   }
 
+  .leftContent {
+    display: none;
+  }
+
   .footerContent {
     flex-wrap: wrap;
     flex-direction: column;
   }
 
-  .footerContent .box {
-    margin: 5px 0;
-  }
   /*------------------  Texten i main section ------------------*/
   .mainHeroImgText h1 {
     font-size: 25px;
@@ -182,8 +183,6 @@
   /*------------------  Index.html: innehållet i section 1  ------------------*/
 
   .mainContent1 {
-    display: flex;
-    flex-wrap: wrap;
     margin: 15px;
   }
 
@@ -198,12 +197,7 @@
   /*------------------  Index.html: innehållet i section 2  ------------------*/
 
   table {
-    width: 90%;
-  }
-
-  .tables {
-    display: flex;
-    flex-wrap: wrap;
+    width: 93vw;
   }
 
   /*------------------  Index.html: innehållet i section 3  ------------------*/
