@@ -74,6 +74,84 @@
   }
 }
 
+@media screen and (max-width: 541px) {
+  footer {
+    bottom: 0; /*  Footern placerans längst ner i sidan  */
+  }
+
+  /*------------------  WORK IN PROGRESS  ------------------*/
+  .WorkInProgressText h1 {
+    font-size: 45px;
+  }
+
+  .WorkInProgressText p {
+    font-size: 25px;
+  }
+
+  /*------------------ logan i headern ------------------*/
+
+  .logo img {
+    width: 55px;
+  }
+
+  /*------------------  Index.html: innehållet i section 1  ------------------*/
+
+  .mainContent1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mainContent1InnerText {
+    margin: 0px;
+  }
+
+  .mainContent1InnerImg img {
+    width: 500px;
+    height: auto;
+  }
+
+  /*------------------  Index.html: innehållet i section 2  ------------------*/
+
+  .mainContent2InnerText {
+    margin: 0;
+  }
+
+  table {
+    width: 95vw;
+  }
+
+  /*------------------ Index.html: innehållet i section 3  ------------------*/
+
+  .mainContent3InnerText {
+    margin: 0px;
+    text-align: left;
+  }
+
+  .mainContent3InnerImg img {
+    width: 500px;
+    height: auto;
+  }
+
+  .mainContent3InnerText h1 {
+    text-align: center;
+  }
+
+  /*------------------  Movies.html: Main Section3 & Section4   ------------------*/
+
+  .moviePoster {
+    display: grid;
+    margin: 14px 0;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+  }
+
+  .movieImg img {
+    width: 160px;
+    height: auto;
+  }
+}
+
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 426px) {
   /*------------------  Footern------------------*/
